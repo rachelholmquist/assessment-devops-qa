@@ -5,6 +5,6 @@ describe('shuffleArray should', () => {
         expect(shuffleArray.length).toEqual(Array.length);
     });
     test('should return an array', () => {
-        expect(shuffleArray).toBe(Array);
+        expect(shuffleArray([2,3,4])).toBeInstanceOf(Array);
     })
 })
